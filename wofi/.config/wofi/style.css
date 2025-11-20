@@ -1,0 +1,64 @@
+/* --- Wofi Style (Waybar Vibe) --- */
+
+* {
+	/* Use the same font-family and font-size as Waybar */
+	font-family: 'SF Pro Text', 'Inter', 'NotoSans Nerd Font', sans-serif;
+	font-size: 13px;
+	border: none;
+}
+
+#window {
+	background-color: transparent;
+}
+
+#outer-box {
+	/* Main module background */
+	background-color: #1a1b26;
+	/* Main module border */
+	border: 1px solid #0390fc;
+	/* Main module border-radius */
+	border-radius: 6px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#input {
+	/* Use the "hover" color for the input box for a slight contrast */
+	background-color: rgb(41, 42, 53);
+	/* General text color */
+	color: #c6d0f5;
+	padding: 8px 12px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+}
+
+#input:focus {
+	/* Use the main border color for the focus outline */
+	box-shadow: inset 0 0 0 1px #0390fc;
+}
+
+#scroll {
+	margin-top: 5px;
+}
+
+#entry {
+	padding: 8px;
+	border-radius: 6px;
+	/* General text color */
+	color: #c6d0f5;
+	background-color: transparent;
+}
+
+#entry:selected {
+	/* Use the "active" background color from Waybar */
+	background-color: rgba(153, 209, 219, 0.1);
+}
+
+#text:selected {
+	/* Use the "active" text color from Waybar */
+	color: #99d1db;
+}
+
+#text {
+	padding: 0px 5px;
+}
